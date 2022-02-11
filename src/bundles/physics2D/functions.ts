@@ -8,18 +8,24 @@
  * @author Author Name
  */
 
-/*
-  To access things like the context or module state you can just import the context
-  using the import below
- */
-import { context } from 'js-slang/moduleHelpers';
+import { b2Body, b2BodyDef, b2StepConfig, b2Vec2, b2World } from '@box2d/core';
+import { Vector2, Force, Timer, PhysicsObject, PhysicsWorld } from './types';
 
-/**
- * Sample function. Increments a number by 1.
- *
- * @param x The number to be incremented.
- * @returns The incremented value of the number.
- */
-export function sample_function(x: number): number {
-  return ++x;
-} // Then any functions or variables you want to expose to the user is exported from the bundle's index.ts file
+// Global Variables
+
+const world: PhysicsWorld = {
+  objects: [],
+  timer: new Timer(),
+};
+
+// =============================================================================
+// Module's Private Functions
+// =============================================================================
+
+// =============================================================================
+// Module's Exposed Functions
+// =============================================================================
+
+export function make_vector(x: number, y: number): Vector2 {
+  return new Vector2(x, y);
+}
