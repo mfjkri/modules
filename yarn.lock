@@ -1066,6 +1066,11 @@
     react-popper "^2.2.4"
     tslib "~2.3.1"
 
+"@box2d/core@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@box2d/core/-/core-0.10.0.tgz#99c8893970b33f68ab22a426ca8d23166b9d7de5"
+  integrity sha512-rVawB+VokPnE2IarLPXE9blbpV26KOEYdadsnXf7ToyXzceXMADPrSIvYIyTzXLteiLE9i+UTMmTcCvYXl+QEA==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"

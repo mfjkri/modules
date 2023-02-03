@@ -86,6 +86,7 @@
     "@blueprintjs/core": "^4.6.1",
     "@blueprintjs/icons": "^4.4.0",
     "@blueprintjs/popover2": "^1.4.3",
+    "@box2d/core": "^0.10.0",
     "@jscad/modeling": "^2.9.5",
     "@jscad/regl-renderer": "^2.6.1",
     "classnames": "^2.3.1",
