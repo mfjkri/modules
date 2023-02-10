@@ -63,9 +63,9 @@
       "Csg"
     ]
   },
-  "physics_sim": {
+  "physics2D": {
     "tabs": [
-      "PhysicsSim"
+      "Physics2D"
     ]
   }
 }
